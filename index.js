@@ -16,8 +16,10 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-// nestedFunction sees that it does not have that variable nested inside so it looks one level up to see where it can find the variable. It is why nestedDunction has access to it.
 
+
+
+// nestedFunction sees that it does not have that variable nested inside so it looks one level up to see where it can find the variable. It is why nestedDunction has access to it.
 
 
 
@@ -59,13 +61,10 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-function animalNames(array) {
+function animalNames(item) {
   let displayNames = [];
-  for (let i = 0; i < array.length; i++){
-    animalNames.push(array[i]);
-  }
-  animalNames.forEach(function ('animal_name', 'scientific_name') {
-    
+  zooAnimals.forEach(function(item) {
+    return animalNames.push({animal_name}, {scientific_name})
   })
   }
   
@@ -86,6 +85,8 @@ function animalNames(array) {
     })
     return lowerCase;
   }
+
+
   
   
   /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
