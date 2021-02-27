@@ -61,13 +61,13 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-function animalNames(item) {
-  let displayNames = [];
-  zooAnimals.forEach(function(item) {
-    return animalNames.push({animal_name}, {scientific_name})
-  })
-  }
-  
+function animalNames() {
+  const displayNames = [];
+  zooAnimals.forEach(function (item) {
+    displayNames.push(item.name.scientific)
+  });
+  return displayNames;
+}
 
 
 
